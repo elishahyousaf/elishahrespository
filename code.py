@@ -32,3 +32,5 @@ class Miner:
 		if zoom:
 			mat = fitz.Matrix(zoom, zoom)
 			pix = page.getPixmap(matrix=mat)
+			
+			Aghf hh
