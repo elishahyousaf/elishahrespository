@@ -1,34 +1,7 @@
-                         with open("my_file.txt", "a") as f:
-   f.write("new text")
-
-vv 
-Endnnn  
-/// 
-    nv
-  nnbfgnbvfvv ****       
-                
-                            
-         
-nvv   docker.pkg.github.com     
-               
-  v         
-        
-             
-     
-     
-  
-  
-  
-     
-    
- 
-  
 
   
-       
-    
-      
- 
-   
-       
- 
+import 'jest-preset-angular/setup-jest';
+
+/* global mocks for jsdom */
+const mock = () => {
+  let storage: { [key: string]: string } = {};
