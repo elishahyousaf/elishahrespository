@@ -10,7 +10,7 @@ return {
     removeItem: (key: string) => delete storage[key],  
     clear: () => (storage = {}),
   };
-}; 
+};   
 
 Object.defineProperty(window, 'localStorage', { value: mock() });
 Object.defineProperty(window, 'sessionStorage', { value: mock() });
