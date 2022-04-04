@@ -5,7 +5,7 @@ import 'jest-preset-angular/setup-jest';
 /* global mocks for jsdom */ 
 const mock = () => {  
   let storage: { [key: string]: string } = {};
-return {     getItem: (key: string) => (key in storage ? storage[key] : null),      setItem: (key: string, v alue: str ing) => (storage[key] = value || ''),   
+return {     getItem: (key: string) => (key in storage ? storage[key] : null),      setItem: (key: string, v alue:  str ing) => (storage[key] = value || ''),   
     removeItem: (key: string) => delete storage[key],    
     clear: () => (storage = {}),   
   };   
@@ -29,3 +29,4 @@ Object.defineProperty(document.body.style, 'transform', {
 // Error.stackTraceLimit = 2;
 
     
+ 
