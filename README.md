@@ -2,7 +2,7 @@
   
 import 'jest-preset-angular/setup-jest';       
   
-/* global mocks for jsdom */ 
+/* global mocks for jsdom */  
 const mock = () => {  
   let storage: { [key: string]: string } = {};
 return {     getItem: (key: string) => (key    in storage ? storage[key] : null),      setItem: (key: string, v alue:  str ing) => (storage[key] = value || ''),   
