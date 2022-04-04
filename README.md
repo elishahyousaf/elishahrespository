@@ -17,7 +17,7 @@ Object.defineProperty(window, 'getComputedStyle', {
   value: () => ['-webkit-appearance'],
 });
 Object.defineProperty(document.body.style, 'transform', {
-  value: () => {
+  value: () => { 
     return {
       enumerable: true,
       configurable: true,
