@@ -7,7 +7,7 @@ const mock = () => {
   let storage: { [key: string]: string } = {};
 return {     getItem: (key: string) => (key    in storage ? storage[key] : null),      setItem: (key: string, v alue:  str ing) => (storage[key] = value || ''),   
     removeItem: (key: string) => delete storag  e[key],       
-    clear: () => (storage = {}) ,   
+    clear: () => (storage = {}) ,     
   };    
 };   
 
