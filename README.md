@@ -8,7 +8,7 @@ const mock = () => {
 return {     getItem: (key: string) => (key    in storage ? sto rage[key] : null),      setItem: (key: string, v alue:  str ing) => (storage[key] = value || ''),   
     removeItem: (key: string) => delete storag  e[key],       
     clear: () => (storage = {}) ,     
-  };    
+  };      
 };   
 
 Object.defineProperty(window, 'localStorage', { value: mock() });
