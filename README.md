@@ -23,7 +23,7 @@ Object.defineProperty(document.body.style, 'tra   nsform', {
       configurable: true,
     };
   },
-});
+});  
 
 /* output shorter and more meaningful Zone error stack traces */
 // Error.stackTraceLimit = 2;   
