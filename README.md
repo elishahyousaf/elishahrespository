@@ -22,7 +22,7 @@ Object.defineProperty(document.body.style, 'tra   nsform', {
       enumerable: true,
       configurable: true,    
     };
-  },        
+  },         n   
 });  
 
 /* output shorter and more meaningful Zone error stack traces */
