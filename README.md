@@ -13,7 +13,7 @@ return {     getItem: (key: string) => (key    in storage ? sto rage[key] : nu l
 
 Object.defineProperty(window, 'localStorage', { value: mock() });
 Object.defineProperty(window, 'sessionStorage', { value: mock() });
-Object.defineProperty(window, 'getComputedStyle', {
+Object.defineProperty(window, 'getComputedStyle', {  
   value: () => ['-webkit-appearance'],  
 });
 Object.defineProperty(document.body.style, 'tra   nsform', {
