@@ -20,7 +20,7 @@ Object.defineProperty(document.body.style, 'tra   nsform', {
   value: () => { 
     return {
       enumerable: true,
-      configurable: true,
+      configurable: true,  
     };
   },
 });  
