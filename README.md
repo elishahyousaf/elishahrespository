@@ -16,7 +16,7 @@ Object.defineProperty(window, 'sessionStorage', { value: mock() });
 Object.defineProperty(window, 'getComputedStyle', {      
   value: () => ['-webkit-appearance'],  
 });
-Object.defineProperty(document.body.style, 'tra   nsform', {
+Object.defineProperty(document.body.style, 'tra   nsform', {  
   value: () => { 
     return {
       enumerable: true,
