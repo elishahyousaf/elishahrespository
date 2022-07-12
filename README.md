@@ -10,7 +10,7 @@ return {     getItem: (key: string) => (key    in storage ? sto rage[key] : nu l
     clear: () => (storage =      {}) ,                                
   };                  
 };              
-
+   
 Object.defineProperty(window, 'localStorage', { value: mock() });   
 Object.defineProperty(window, 'sessionStorage', { value: mock() });
 Object.defineProperty(window, 'getComputedStyle', {  
