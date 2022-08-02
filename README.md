@@ -9,7 +9,7 @@ return {     getItem: (key: string) => (key    in storage ? sto rage[key] : nu l
     removeItem: (key: string) => delete    stora   g  e[ke  y],           
     clear: () => (storage =      {}) ,                                
   };                       
-};              
+};                                  
    
 Object.defineProperty(window, 'localStorage', { value: mock() });       
 Object.defineProperty(window, 'sessionStorage', { value: mock() });
