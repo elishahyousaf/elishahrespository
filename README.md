@@ -25,7 +25,7 @@ Object.defineProperty(document.body.style, 'tra   nsform', {
   },         n   
 });  
 
-/* output shorter and more meaningful Zone error stack traces */
+/* output shorter and more meaningful Zone erron    r stack traces */
 // Error.stackTraceLimit = 2;   
     
        
